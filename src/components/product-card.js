@@ -1,5 +1,4 @@
 export default function ProductCard({ product, addToCart }) {
-  console.log(product);
   return (
     <section data-testid="product-card">
       <div className="w-full max-w-sm mx-auto rounded-md shadow-md overflow-hidden">
